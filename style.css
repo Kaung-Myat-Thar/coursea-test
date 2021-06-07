@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.row{
+    width: 100%;
+}
+.col{
+    float: left;
+    width: 33.33%;
+}
+.col div {
+    border: 1px solid black;
+    background-color: #A52A2A;
+    width: 90%;
+    height: 150px;
+    height: 90%;
+    font-family: Helvetica;
+    color: white;
+    position: relative;
+  }
+  .H{
+      background-color: aqua;
+      top: 0;
+      right: 0;
+      position: absolute;
+  }
+  .dummy{
+      margin: 15px 10px 10px 10px;
+      padding-top: 30px;
+  }
+
+
+  @media (min-width: 1200px) {
+      .col{
+          width:33.33%;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      .col-md{
+          width: 25%;
+      }
+      .col-md1{
+          width: 100%;
+      }
+  }
+  @media (max-width: 767px) {
+      .col-sm{
+          width: 100%;
+      }
+  }
+    
